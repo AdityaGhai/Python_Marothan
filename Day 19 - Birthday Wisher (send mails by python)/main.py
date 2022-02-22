@@ -29,6 +29,6 @@ for bday in birth_date:
             connection.login(email, password)
             connection.sendmail(
                 from_addr=email,
-                to_addrs="adityaghai02@gmail.com",
+                to_addrs=email,
                 msg=f"Subject:Happy Birthday\n\n{template}"
             )
