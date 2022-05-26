@@ -8,8 +8,8 @@ import pandas as pd
 date = dt.datetime.now()
 bday_day = (date.month, date.day)
 
-email = "dummytest000111@gmail.com"
-password = "dummy123456"
+email = your email
+password = your password
 
 # reading csv and formatting into list of dictionary
 birth_date = pd.read_csv("birthdays.csv").to_dict(orient="records")
