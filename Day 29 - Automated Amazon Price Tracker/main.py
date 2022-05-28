@@ -2,9 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import smtplib
 
-AMAZON_URL = "https://www.amazon.in/Signoraware-Charger-Shaker-Steel-Silver/dp/B08437DZDP/ref=sr_1_11?crid=1H7ZNCICGWAND&keywords=gym%2Bsipper&qid=1653540433&sprefix=grm%2Bsipper%2Caps%2C192&sr=8-11&th=1"
-email = "jaro4519@gmail.com"
-password = "all-favorite"
+AMAZON_URL = your chosen product url
+email = your email
+password = your password
 
 TARGET_PRICE = 500
 
